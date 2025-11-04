@@ -136,10 +136,10 @@
 
         layer_2 {
             bindings = <
-&trans  &kp EXCL        &kp AT    &kp EQUAL   &kp APOS   &kp TILDE                    &trans  &trans  &kp LPAR  &kp RPAR  &kp PERCENT  &kp PIPE
-&trans  &kp AMPS        &kp HASH  &kp DOLLAR  &kp DQT    &trans                       &trans  &trans  &kp LBKT  &kp RBKT  &trans       &trans
-&trans  &trans          &trans    &kp CARET   &kp GRAVE  &trans     &trans    &trans  &trans  &trans  &kp LBRC  &kp RBRC  &kp PG_UP    &kp BSLH
-&trans  &macro_m_sshot  &trans    &trans      &trans     &trans                       &trans  &trans  &trans    &kp HOME  &kp PG_DN    &kp END
+&trans  &kp EXCL        &kp AT    &kp EQUAL   &kp APOS   &kp TILDE                    &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp LPAR          &kp RPAR   &kp PIPE
+&trans  &kp AMPS        &kp HASH  &kp DOLLAR  &kp DQT    &trans                       &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp LEFT_BRACKET  &kp RBKT   &trans
+&trans  &trans          &trans    &kp CARET   &kp GRAVE  &trans     &trans    &trans  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp AT            &kp PG_UP  &kp BSLH
+&trans  &macro_m_sshot  &trans    &trans      &trans     &trans                       &trans     &trans     &trans     &kp HOME          &kp PG_DN  &kp END
             >;
 
             sensor-bindings = <&rot_kp C_VOL_UP C_VOL_DN    &mouse_scrl SCRL_LEFT SCRL_RIGHT>;
